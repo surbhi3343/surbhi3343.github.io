@@ -1,0 +1,60 @@
+<!Doctype Html>
+<html>
+<head>
+  <style>
+     body {
+       background-color:#AA98A9;
+     }
+     h2 {
+       font-size:40px;
+       text-shadow: 2px 2px #FFFFFF;
+     }
+     input[type=text], select, textarea {
+         width:100%;
+         padding:12px;
+         border:1px solid #ccc;
+         border-radius:4px;
+         border-sizing:border-box;
+         margin-top:6px;
+         margin-bottom:16px;
+         resize:vertical
+       }
+           .submit {
+         background-color:#04AA6D;
+         color:white;
+         padding:12px 20px;
+         border:none;
+         border-radius:4px;
+         cursor:pointer;
+      }
+            .submit:hover {
+         background-color:#45a049;
+      }
+
+</style>
+</head>
+<body>
+ <h2><b><i>Address Information</b></i></h2>
+ <div>
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14235.349581933746!2d75.90114144999998!3d26.8769068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db82900ce17b5%3A0xa7d391c08fe828a3!2s191%2C%20Paldi%20Meena%2C%20Jaipur%2C%20Rajasthan%20302031!5e0!3m2!1sen!2sin!4v1685170532836!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ </div>
+<div class="container">
+  <form action="mailto:subhi3343@gmail.com">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your Name">
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your Last Name">
+    <label for="Contact">Contact</label>
+    <input type="text" id="fname" name="Contact" placeholder="Conltact No.">
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placehoder="Write something.." style="height:200px"></textarea>
+    <button class="submit" onclick="pop()">Submit</button>
+    <div class="container1" id="box">
+        <p style="font-size:30px;"><b><i>THANK YOU!<b></i></p>
+    </div>
+    
+  </form>
+</div> 
+   
+</body>
+</html>
